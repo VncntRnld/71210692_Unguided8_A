@@ -1,0 +1,24 @@
+a = 2001
+b = 2002 - 2001 = 1
+
+Un = a + (n-1) b
+4000 = 2001 + (n-1) 1
+4000 = 2001 + 1n -1
+4000 = 2000 + 1n
+4000-2000 = 1n
+n = 2000
+
+Sn = n/2(a + un)
+Sn = 2000/2(2001+4000)
+Sn = 1000 * 6001
+Sn = 6001000
+
+atau bisa menggunakan excel
+
+=Sequence(2000;;2001;1)
+akan menghasilkan deret angka mulai dari 2001 berkelipatan +1 sampai 2000 angka (n=2000)
+
+lalu gunakan
+=SUM(A1:A2000)
+
+maka akan menghasilkan 6001000
